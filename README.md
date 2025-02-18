@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Swift's async/await error handling. The `fetchData` function correctly handles errors during network requests, but the `Task` block's `catch` statement might not be sufficient to handle all potential errors in the case of exceptions.  The solution shows how to improve error handling by making the Task more robust and informative.
